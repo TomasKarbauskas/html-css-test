@@ -1,0 +1,430 @@
+body{
+    background-color: rgb(234, 234, 234);
+}
+.border{
+    background-color: white;
+    max-width: 390px;
+    border-radius: 0.9rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgb(0, 0, 0, 10%);
+}
+header div nav a{
+    display: none;
+}
+header nav img{
+    width: 2.5rem;
+    height: auto;
+}
+header{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.launching-soon-one{
+    width: 83%;
+    margin: 0 auto;
+}
+.data img{
+    width: 25rem;
+    position: absolute;
+    top: 6rem;
+    left: 11rem;
+    z-index: 1;
+}
+.data-two img{
+    display: none;
+}
+.data h4{
+    color: rgb(252, 21, 134);
+    margin-bottom: 0;
+}
+.data h1{
+    width: 85%;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.data p{
+    width: 65%;
+    font-size: larger;
+    color: rgb(67, 67, 67);
+}
+#button{
+    border: solid 0.3rem ;
+    padding: 1.5rem;
+    border-image: url("assets /background.png") 30 30 round;
+    border-image-repeat: round;
+    border-radius: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    background: transparent;
+}
+.free-nft{
+    max-width: 30rem;
+    background-image: url("assets /backgrounded.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+} 
+.free-nft h3{
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+.free-nft p{
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: larger;
+    margin-top: 0;
+}
+.boomerang, .opendoor{
+    display: none;
+}
+.iphone img{
+    width: 11rem;
+    top: 0.7rem;
+}
+.companies{
+    width: 90%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-areas: 
+    "iphone blimp"
+    "qrco droplet";
+    align-items: center;
+}
+.iphone{
+    grid-area: iphone;
+    padding-top: 0.8rem;
+}
+.blimp{grid-area: blimp;}
+.qrco{grid-area: qrco;}
+.droplet{grid-area: droplet;}
+.qrco{
+    padding-left: 1rem;
+}
+.auction h3{
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+.auction p{
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: larger;
+    margin-top: 0;
+    color: rgb(67, 67, 67);
+}
+.auction p a{
+    color: rgb(67, 67, 67);
+    font-weight: lighter;
+    margin-right: 1.5rem;
+}
+.nft{
+    display: flex;
+    width: 83%;
+    margin: 0 auto;
+    column-gap: 1.5rem;
+}
+.nft div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(234, 234, 234);
+    border-radius: 0.9rem;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+}
+#row-one{
+    color:rgb(251, 114, 54);
+    font-size: x-small;
+}
+#row-one-colum-two{
+    color: rgb(67,67,67);
+    font-size: x-small ;
+    text-align: right;
+    padding-top: 0.5rem;
+}
+#row-two{
+    font-size: larger;
+}
+#row-two-colum-two{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#row-two-colum-two img{
+    padding-right: 0.2rem;
+}
+#row-three{
+    color: rgb(67,67,67);
+    font-size: medium;
+    text-align: left;
+    padding-bottom: 0.4rem;
+}
+#row-three-colum-two{
+    color: rgb(67,67,67);
+    font-size:medium;
+    text-align: right;
+    padding-bottom: 0.4rem;
+}
+main{
+    border-bottom: solid 0.2rem rgb(234, 234, 234);
+    padding-bottom: 4rem;
+}
+.green img{
+    width: 13rem;
+    position: absolute;
+    top: 121.4rem;
+    left: 14rem;
+    z-index: 1;
+}
+#launching-soon-one{
+    border-bottom: solid 0.2rem rgb(234, 234, 234);
+    padding-bottom: 1rem;
+}
+#launching-soon-one h2:last-child{
+    display: none;
+}
+.green-for-wide{
+    display: none;
+}
+#launching-soon-one h4{
+    color: rgb(252, 21, 134);
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+#launching-soon-one h1{
+    padding-left: 2rem;
+    font-size: 3rem;
+    padding-bottom: 0;
+}
+#launching-soon-two{
+    padding-left: 2rem;
+    border-bottom: solid 0.2rem rgb(234, 234, 234);
+    padding-bottom: 2rem;
+}
+#launching-soon-two p{
+    width: 50%;
+    color: rgb(67,67,67);
+    font-size: larger;
+    padding-bottom: 1rem;
+}
+.footer-one img{
+    padding-top: 3rem;
+}
+footer{
+    width: 83%;
+    margin: 0 auto;
+    color: rgb(67,67,67);
+    font-size: larger;
+    margin-bottom: 3rem;
+}
+.footer-one a img{
+    width: 2rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+.line div table tr td a{
+    text-decoration: none;
+    color: rgb(67,67,67);
+}
+.line div table th{
+    text-align: left;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.line{
+    display: grid;
+    grid-template-areas: 
+    "footer-two footer-three"
+    "footer-four footer-five";
+}
+.footer-two{grid-area: footer-two;}
+.footer-three{grid-area: footer-three;}
+.footer-four{grid-area: footer-four;} 
+.footer-five{grid-area: footer-five;}
+.last-line{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.last-line p:last-child{
+    display: none;
+}
+@media only screen and (min-width: 400px) {
+    .border{
+        min-width: 1453px;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    header div nav a{
+        display: inline-block;
+        padding-left: 1rem;
+        text-decoration: none;
+        color: rgb(67,67,67);
+        font-size: larger;
+    }
+    header div nav a:last-child{
+        color: rgb(252, 21, 134);
+        padding-right: 0;
+    }
+    header nav img{
+        display: none;
+    }
+    .data img{
+        display: none;
+    }
+    .launching-soon-one{
+        display: flex;
+        width: 93%;
+        padding-left: 8rem;
+    }
+    .data-two img{
+        display: inline;
+        width: 47rem;
+    }
+    .launching-soon-one .data h1{
+        font-size: 5rem;
+    }
+    .launching-soon-one .data p{
+        font-size: 1.5rem;
+    }
+    .launching-soon-one{
+        margin-top: 6rem;
+    }
+    .free-nft{
+        background-image: url("assets /background.svg");
+        background-size: 100%;
+        max-width: 83%;
+        margin: 0 auto;
+        min-height: 20rem;
+        background-repeat: no-repeat;
+        border-radius: 0.8rem;
+    }
+    .free-nft{
+        font-size: x-large;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    .companies .iphone{
+        display: none;
+    }
+    .companies .boomerang{
+        display: inline;
+    }
+    .companies .opendoor{
+        display: inline;
+    }
+    .companies{
+        display: flex;
+        justify-content: space-between;
+    }
+    .companies{
+        width: 83%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .auction{
+        width: 87%;
+        margin-top: 6rem;
+        padding-bottom: 5rem;
+    }
+    .auction h3, .auction p{
+        margin-left: 5.3rem;
+    }
+    .auction p{
+        font-size: x-large;
+    }
+    .green img{
+        display: none;
+    }
+    #launching-soon-one h1{
+        display: none;
+    }
+    #launching-soon-one h2:last-child{
+        display: inline;
+        font-size: 3rem;
+        margin-left: 2rem;
+    }
+    #launching-soon-one{
+        border-bottom: none;
+    }
+    .launching-soon-two{
+        display: flex;
+        padding-top: 3rem;
+        border-bottom: solid 0.2rem rgb(234, 234, 234);
+        padding-left: 5rem;
+    }
+   .green-for-wide {
+        display: flex;
+        margin-left: 5rem;
+        flex: 4;
+    }
+    .green{
+        flex: 6;
+    }
+    #launching-soon-one{
+        border-bottom: none;
+    }
+    #launching-soon-two{
+        border-bottom: none;
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.line{
+        display: flex;
+        flex: 5;
+        justify-content: space-evenly;
+        padding-top: 3rem;
+    }
+    .footer-one{
+        flex: 3;
+        padding-top: 1rem;
+    }
+    .last-line{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .last-line p:last-child{
+        display: contents;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
